@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<syllabus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  title="GitHook Test on Windows" xsi:noNamespaceSchemaLocation="urn:kaptest:names:tc:dita:xsd:syllabusMap.xsd">
+  <source name="jasper">
+    <data name="jasper-product-code" value="DAT2015"/>
+  </source>
+  <section id="studyplan" title="Study Plan">
+    <lesson id="gettingStarted" title="Start Here">
+      <assignment title="Watch Orientation Video" format="video.atom" uri="main/DAT2015/videos/lod/ori/qdatorientation15.mod1" duration="240">
+        <description format="text">Learn more about the resources available in your course and how to make the most of them to earn the score you need.</description>
+        <source name="jasper">
+          <data name="jasper-product-code" value="DAT2015"/>
+        </source>
+      </assignment>
+      <assignment title="American Diagnostic Exam" format="test.diagnostic" uri="main/DAT2015/assessments/diagnostic/dat2015Diag" duration="12600">
+        <description format="text">Take this test as soon as possible to become familiar with the American DAT, assess your baseline, and start generating your personalized study recommendations. This test is slightly shorter than the official DAT and your full-length practice tests to allow you to determine your strengths and areas of opportunity as efficiently as possible. Only take either the American or Canadian version, depending on the location where you plan to take your official test.</description>
+        <source name="jasper">
+          <data name="jasper-product-code" value="DAT2015"/>
+        </source>
+      </assignment>
+      <assignment title="Canadian Diagnostic Exam" format="test.diagnostic" uri="main/DAT2015/assessments/diagnostic/cdat15Diag" duration="8100">
+        <description format="text">Take this test as soon as possible to become familiar with the Canadian DAT, assess your baseline, and start generating your personalized study recommendations. This test is slightly shorter than the official DAT and your full-length practice tests to allow you to determine your strengths and areas of opportunity as efficiently as possible. Only take either the American or Canadian version, depending on the location where you plan to take your official test.</description>
+        <source name="jasper">
+          <data name="jasper-product-code" value="DAT2015"/>
+        </source>
+      </assignment>
+      <assignment title="Get Help" format="reading.pdf" uri="DAT_Important_Messages.pdf" duration="300">
+        <description format="text">Access this PDF to review more information about your course and learn how to get extra help when you need it.</description>
+        <source name="s3"/>
+      </assignment>
+    </lesson>
+    <lesson id="unit1" title="Unit 1">
+      <description format="text">After this session you will be able to describe the sections of the DAT and their scoring systems; formulate a personal study calendar that includes all the necessary actions from now until Test Day; and recall the steps of Kaplan's question, answer choice, and CBT strategies. You will also be able to recall Kaplan's strategies for reading strategically and classifying reading comprehension question types.</description>
+      <lessongroup type="scheduled">
+        <lesson title="Strategy &amp; Reading" subtitle="Test Strategies, Reading Comprehension" subject="strategy-reading" id="strategy-reading">
+          <description format="text">After this session you will be able to describe the sections of the DAT and their scoring systems; formulate a personal study calendar that includes all the necessary actions from now until Test Day; and recall the steps of Kaplan's question, answer choice, and CBT strategies. You will also be able to recall Kaplan's strategies for reading strategically and classifying reading comprehension question types.</description>
+          <additional>
+            <assignment title="Reading Comprehension Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/rcWQ/rcW/datoat2007drc" duration="2700">
+              <description format="text">This workshop reviews the Kaplan Reading Comprehension strategies.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Active Reading Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/rcWQ/actW/datoat2007dar" duration="2700">
+              <description format="text">This workshop provides more information about reading efficiently and effectively.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </additional>
+          <assignmentgroup id="preview" title="Before Class">
+            <assignment title="Read Review Notes Chapters 1–3, 52–53" format="reading.pdf" uri="ReviewNotes_StrategyRC1B.pdf" duration="9000">
+              <description format="text">This assignment includes chapters 1, Introduction; 2, Studying Effectively; and 3, Test Strategies as well as chapters 52, Reading Critically; and 53, Question Types.</description>
+              <source name="s3"/>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup id="session" title="Class Session" >
+            <assignmentgroup title="Strategy and Reading 1" format="session.onsite">
+              <description format="text">Attend this class session live according to your class schedule or by finding a make-up session, then review using the Lesson On Demand as needed. For the first three class sessions, if you have not received your Home Study Kit yet, you can download the Lesson Book pages as a PDF.</description>
+              <assignment title="Download Strategy 1 &amp; Reading Comprehension 1 Lesson Book Pages" format="reading.pdf" uri="LessonBook_DAT_Strategy1.pdf" duration="">
+                <description format="text">Strategy 1 and Reading Comprehension 1 Lesson Book Pages as a PDF</description>
+                <source name="s3"/>
+              </assignment>
+              <assignment title="Strategy 1 &amp; Reading Comprehension 1 Lesson On Demand" format="video.lod" uri="main/DAT2015/videos/lod/lod1/da15s01l01" duration="10044">
+                <description format="text">Watch the Lesson On Demand</description>
+                <source name="jasper">
+                  <data name="jasper-product-code" value="DAT2015"/>
+                </source>
+              </assignment>
+            </assignmentgroup>
+          </assignmentgroup>
+          <assignmentgroup id="review" title="After Class">
+            <assignment title="Reading Comprehension Test A" format="test.section" uri="main/DAT2015/assessments/secTests/qdatreadingA15" duration="3600">
+              <description format="text">Test yourself with this realistically timed and scored full test section.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup title="More Resources on These Topics" importance="practice">
+            <assignment type="filter" title="Teach Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit1.strategy-reading"/>
+                <field name="format" value="reading.workshop"/>
+              </criteria>
+            </assignment>
+            <assignment type="filter" title="Test Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit1.strategy-reading"/>
+                <field name="format" value="test.quiz,test.section"/>
+              </criteria>
+            </assignment>
+          </assignmentgroup>
+          <source name="kbs">
+            <data name="kbsTopicId" value="1000052438"/>
+          </source>
+        </lesson>
+        <lesson title="Biology" subtitle="Diversity of Life, Cell and Molecular Biology, Genetics, Evolution, Ecology, and Behavior" subject="biology" id="biology">
+          <description format="text">After this session you will be able to differentiate between the taxonomy kingdoms; describe the parts of a cell, including their origins and functions; explain the processes of replication, transcription, and translation; calculate individual and population genetics; and describe relationships among different organisms and environments.</description>
+          <additional>
+            <assignment title="Taxonomy Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/bw/taxW/datoat2007dbta" duration="2700">
+              <description format="text">This workshop discusses key characteristics of and examples from the taxonomy kingdoms.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Evolution Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/bw/evoW/datoat2007dbev" duration="2700">
+              <description format="text">This workshop presents historical theories regarding evolution, the evidence that supports them, and their relationship to the Hardy-Weinberg equations.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Ecology Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/bw/ecoW/datoat2007dbel" duration="2700">
+              <description format="text">This workshop explores the relationships among organisms within biomes, including their roles in symbiosis and the energy, carbon, and nitrogen cycles.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Cell and Molecular Biology B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatcellandmolbioB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 5–7 related to the blueprint category of Cell and Molecular Biology.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Genetics B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatgenB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 8 related to the blueprint category of Genetics.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Ecology and Diversity B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatecoanddivB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 20–21 related to the blueprint categories of Diversity of Life and Evolution, Ecology, and Behavior.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Biology 1 Challenge A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes6/qdatbio1challengeA15" duration="600">
+              <description format="text">This challenge quiz contains examples of some of the most difficult question types you'll see on Test Day with content specific to Biology 1.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Biology 1 Challenge B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes6/qdatbio1challengeB15" duration="600">
+              <description format="text">This challenge quiz contains examples of some of the most difficult question types you'll see on Test Day with content specific to Biology 1.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Microbiology Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/bw/microW/mcat2007bmb" duration="2700">
+              <description format="text">This workshop reviews concepts from taxonomy on the cellular level relating to prokaryotes, viruses, and fungi.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </additional>
+          <assignmentgroup id="preview" title="Before Class">
+            <assignment title="Read Review Notes Chapters 4–9, 19–21" format="reading.pdf" uri="ReviewNotes_Biology1B.pdf" duration="16200">
+              <description format="text">This assignment includes chapters 4, Biology Strategies; 5, Cellular Biology; 6, DNA and RNA; 7, Metabolism; 8, Genetics; 9, Evolution; 19, Animal Behavior; 20, Ecology; and 21, Taxonomy.</description>
+              <source name="s3"/>
+            </assignment>
+            <assignment title="Generalized Eukaryotic Cell Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/bw/eukaW/mcat2007bec" duration="2700">
+              <description format="text">This workshop reviews the properties of cells, including the functions of various organelles and the cell membrane.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Molecular Genetics Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/bw/molW/mcat2007bmg" duration="2700">
+              <description format="text">This workshop provides an in-depth analysis of replication, transcription, and translation, drawing on your knowledge of molecular biology and biochemistry.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup id="session" title="Class Session">
+            <assignmentgroup title="Biology 1" format="session.onsite">
+              <description format="text">Attend this class session live according to your class schedule or by finding a make-up session, then review using the Lesson On Demand as needed. For the first three class sessions, if you have not received your Home Study Kit yet, you can download the Lesson Book pages as a PDF.</description>
+              <assignment title="Download Biology 1 Lesson Book Pages" format="reading.pdf" uri="LessonBook_DAT_Biology1.pdf" duration="">
+                <description format="text">Biology 1 Lesson Book Pages as a PDF</description>
+                <source name="s3"/>
+              </assignment>
+              <assignment title="Biology 1 Lesson On Demand" format="video.lod" uri="main/DAT2015/videos/lod/lod1/da15s03l01" duration="10501">
+                <description format="text">Watch the Lesson On Demand</description>
+                <source name="jasper">
+                  <data name="jasper-product-code" value="DAT2015"/>
+                </source>
+              </assignment>
+            </assignmentgroup>
+          </assignmentgroup>
+          <assignmentgroup id="review" title="After Class">
+            <assignment title="Cell and Molecular Biology A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatcellandmolbioA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 5–7 related to the blueprint category of Cell and Molecular Biology.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Genetics A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatgenA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 8 related to the blueprint category of Genetics.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Ecology and Diversity A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatecoanddivA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 20–21 related to the blueprint categories of Diversity of Life and Evolution, Ecology, and Behavior.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup title="More Resources on These Topics" importance="practice">
+            <assignment type="filter" title="Teach Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit1.biology"/>
+                <field name="format" value="reading.workshop"/>
+              </criteria>
+            </assignment>
+            <assignment type="filter" title="Test Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit1.biology"/>
+                <field name="format" value="test.quiz,test.section"/>
+              </criteria>
+            </assignment>
+          </assignmentgroup>
+          <source name="kbs">
+            <data name="kbsTopicId" value="1000052439"/>
+          </source>
+        </lesson>
+        <lesson title="Perceptual Ability" subtitle="Keyholes, Top-Front-End, Angle Ranking, Hole Punching, Cube Counting, Pattern Folding" subject="pat" id="pat">
+          <description format="text">After this session you will be able to recall the rules for each PAT subsection and apply specific Kaplan strategies to each subsection.</description>
+          <additional>
+            <assignment title="Pattern Folding Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/paWQ/pattW/dat2008ppf" duration="2700">
+              <description format="text">This workshop discusses advanced techniques specific to the Pattern Folding section.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Keyholes B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdatkeyholesB15" duration="600">
+              <description format="text">This quiz contains Keyhole questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Keyholes C" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdatkeyholesC15" duration="600">
+              <description format="text">This quiz contains Keyhole questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Top-Front-End B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdattopfrontendB15" duration="600">
+              <description format="text">This quiz contains Top-Front-End questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Top-Front-End C" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdattopfrontendC15" duration="600">
+              <description format="text">This quiz contains Top-Front-End questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Angle Ranking B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdatanglerankingB15" duration="600">
+              <description format="text">This quiz contains Angle Ranking questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Angle Ranking C" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdatanglerankingC15" duration="600">
+              <description format="text">This quiz contains Angle Ranking questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Hole Punching B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdatholepunchingB15" duration="600">
+              <description format="text">This quiz contains Hole Punching questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Hole Punching C" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdatholepunchingC15" duration="600">
+              <description format="text">This quiz contains Hole Punching questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Cube Counting B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdatcubecountingB15" duration="600">
+              <description format="text">This quiz contains Cube Counting questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Cube Counting C" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdatcubecountingC15" duration="600">
+              <description format="text">This quiz contains Cube Counting questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Pattern Folding B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdatpatternfoldingB15" duration="600">
+              <description format="text">This quiz contains Pattern Folding questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Pattern Folding C" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdatpatternfoldingC15" duration="600">
+              <description format="text">This quiz contains Pattern Folding questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </additional>
+          <assignmentgroup id="preview" title="Before Class">
+            <assignment title="Read Review Notes Chapter 63" format="reading.pdf" uri="DAT_PAT_IntroB.pdf" duration="1800">
+              <description format="text">This assignment includes chapter 63, Perceptual Ability Strategies.</description>
+              <source name="s3"/>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup id="session" title="Class Session">
+            <assignmentgroup title="Manage Your PAT 1 Flex Session" format="session.liveonline" registration="required" uri="http://student.kaptest.com/secure/lolEvents.jhtml?productId=104&amp;eventType=perceptual ability 1&amp;template=flexsession">
+              <description format="text">Register, change your registration, or attend your live online Flex session. Remember to bring a printed or ebook version of your Lesson Book with you to class.</description>
+              <assignment title="Download PAT 1 Lesson Book Pages" format="reading.pdf" uri="LessonBook_DAT_PAT1.pdf" duration="">
+                <description format="text">PAT 1 Lesson Book Pages as a PDF</description>
+                <source name="s3"/>
+              </assignment>
+              <assignment title="PAT 1 Lesson On Demand" format="video.lod" uri="main/DAT2015/videos/lod/lod1/da15s04l01" duration="9875">
+                <description format="text">Watch the Lesson On Demand</description>
+                <source name="jasper">
+                  <data name="jasper-product-code" value="DAT2015"/>
+                </source>
+              </assignment>
+            </assignmentgroup>
+          </assignmentgroup>
+          <assignmentgroup id="review" title="After Class">
+            <assignment title="Keyholes A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdatkeyholesA15" duration="600">
+              <description format="text">This quiz contains Keyhole questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Top-Front-End A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdattopfrontendA15" duration="600">
+              <description format="text">This quiz contains Top-Front-End questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Angle Ranking A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdatanglerankingA15" duration="600">
+              <description format="text">This quiz contains Angle Ranking questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Hole Punching A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdatholepunchingA15" duration="600">
+              <description format="text">This quiz contains Hole Punching questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Cube Counting A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdatcubecountingA15" duration="600">
+              <description format="text">This quiz contains Cube Counting questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Pattern Folding A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes4/qdatpatternfoldingA15" duration="600">
+              <description format="text">This quiz contains Pattern Folding questions from the Perceptual Ability Test.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup title="More Resources on These Topics" importance="practice">
+            <assignment type="filter" title="Teach Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit1.pat"/>
+                <field name="format" value="reading.workshop"/>
+              </criteria>
+            </assignment>
+            <assignment type="filter" title="Test Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit1.pat"/>
+                <field name="format" value="test.quiz,test.section"/>
+              </criteria>
+            </assignment>
+          </assignmentgroup>
+          <source name="kbs">
+            <data name="kbsTopicId" value="1000052638"/>
+          </source>
+        </lesson>
+        <lesson title="Quantitative" subtitle="Quantitative Strategies, Numerical Calculations, Conversions, Algebra" subject="quantitative" id="quantitative">
+          <description format="text">After this session you will be able to identify opportunities to apply Traditional Math, Picking Numbers, Backsolving, Educated Guessing, and Estimation to math problems; calculate numerical problems involving fractions, decimals, exponents, and absolute values; calculate algebra problems using equations and inequalities; and analyze the properties of graphs and figures.</description>
+          <additional>
+            <assignment title="Number Properties Basics Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/propBW/g2npb" duration="2700">
+              <description format="text">This workshop reviews key definitions and mathematical operations essential for Test-Day success.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Algebra Basics Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/algBW/g2ab" duration="2700">
+              <description format="text">This workshop discusses how to manipulate equations and inequalities, including how to turn English sentences into mathematical problems.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Graph Basics Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/graphBW/g2gbw" duration="2700">
+              <description format="text">This workshop introduces the steps needed to successfully evaluate and interpret graphs and figures.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Equations and Expressions B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatequandexpB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 57 related to the blueprint category of Equations and Expressions.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Inequalities, Absolute Values, Ratios, and Proportions B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatabsvaluendrationdpropB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 57 related to the blueprint categories of Inequalities, Absolute Value, and Ratios and Proportions.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Fractions, Decimals, and Percents B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatfracdecndperB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 56 related to the blueprint categories of Fractions and Decimals and Percentages.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Graphical Analysis B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatgraphicalanalysisB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 57 related to the blueprint category of Graphical Analysis.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Problem Solving Intermediate Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/solvIW/g2psi" duration="2700">
+              <description format="text">This workshop reviews more advanced Quantitative strategies from chapter 55 as applied to specific question types.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Problem Solving Challenge Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/solvCW/g2psc" duration="2700">
+              <description format="text">This workshop reviews advanced Quantitative strategies for the most difficult Quantitative question types, many of which require knowledge of geometry and trigonometry.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Number Properties Challenge Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/propCW/g2npc" duration="2700">
+              <description format="text">This workshop reviews more advanced definitions and mathematical operations, including using factoring, exponents, and roots.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Applied Arithmetic Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/applW/g2aa" duration="2700">
+              <description format="text">This workshop provides practice applying common mathematical operations when solving question types found throughout the Quantitative sections.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Algebra Intermediate Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/algIW/g2ai" duration="2700">
+              <description format="text">This workshop reviews more advanced algebra operations, including FOILing and working with simultaneous equations.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Algebra Challenge Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/algCW/g2ac" duration="2700">
+              <description format="text">This workshop reviews difficult algebra applications to geometry, probability, and statistics.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Graph Challenge Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/graphCW/g2gcw" duration="2700">
+              <description format="text">This workshop explores how to work with specific types of graphs and avoid common test-maker traps.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </additional>
+          <assignmentgroup id="preview" title="Before Class">
+            <assignment title="Read Review Notes Chapters 55-57" format="reading.book" uri="" duration="5400">
+              <description format="text">This assignment includes chapters 55, Quantitative Strategies; 56, Numerical Calculations and Conversions; and 57, Algebra.</description>
+              <source name="isbn"/>
+            </assignment>
+            <assignment title="Problem Solving Basics Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/solvW/g2psb" duration="2700">
+              <description format="text">This workshop reviews key Quantitative strategies from chapter 55 as applied to basic math problems.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Arithmetic Fundamentals Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/arithW/g2arf" duration="2700">
+              <description format="text">This workshop reviews common mathematical operations used to solve question types found throughout the Quantitative sections.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup id="session" title="Class Session">
+            <assignmentgroup title="Quantitative 1" format="session.onsite">
+              <description format="text">Attend this class session live according to your class schedule or by finding a make-up session, then review using the Lesson On Demand as needed. Remember to bring a printed or ebook version of your Lesson Book with you to class.</description>
+              <assignment title="Quantitative Reasoning 1 Lesson On Demand" format="video.lod" uri="main/DAT2015/videos/lod/lod1/da15s05l01" duration="9144">
+                <description format="text">Watch the Lesson On Demand</description>
+                <source name="jasper">
+                  <data name="jasper-product-code" value="DAT2015"/>
+                </source>
+              </assignment>
+            </assignmentgroup>
+          </assignmentgroup>
+          <assignmentgroup id="review" title="After Class">
+            <assignment title="Equations and Expressions A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatequandexpA15.mod" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 57 related to the blueprint category of Equations and Expressions.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Inequalities, Absolute Values, Ratios, and Proportions A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatabsvaluendrationdpropA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 57 related to the blueprint categories of Inequalities, Absolute Value, and Ratios and Proportions.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Fractions, Decimals, and Percents A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatfracdecndperA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 56 related to the blueprint categories of Fractions and Decimals and Percentages.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Graphical Analysis A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatgraphicalanalysisA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 57 related to the blueprint category of Graphical Analysis.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup title="More Resources on These Topics" importance="practice">
+            <assignment type="filter" title="Teach Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit1.quantitative"/>
+                <field name="format" value="reading.workshop"/>
+              </criteria>
+            </assignment>
+            <assignment type="filter" title="Test Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit1.quantitative"/>
+                <field name="format" value="test.quiz,test.section"/>
+              </criteria>
+            </assignment>
+          </assignmentgroup>
+          <source name="kbs">
+            <data name="kbsTopicId" value="1000052440"/>
+          </source>
+        </lesson>
+        <lesson title="General Chemistry" subtitle="Atomic and Molecular Structure, Periodic Properties, Stoichiometry, Thermochemistry, Equilibria, Kinetics" subject="general-chem" id="general-chem">
+          <description format="text">After this session you will be able to differentiate between the different types of intramolecular and intermolecular bonds; predict properties based on those bonds and the periodic table; calculate stoichiometric values and balanced chemical equations; calculate energies based on thermodynamics; calculate properties of systems at equilibrium; and determine chemical rate laws.</description>
+          <additional>
+            <assignment title="Reaction Types Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/gcw/reacW/mcat2007grt" duration="2700">
+              <description format="text">This workshop introduces the basic reaction types that you will encounter through the General Chemistry and Organic Chemistry subsections.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Properties of Solutions Worshop" format="reading.workshop" uri="main/DAT2015/videos/br/gcw/solW/mcat2007gps" duration="2700">
+              <description format="text">This workshop reviews the rules for solubility then provides practice calculating concentrations and colligative properties.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Atomic and Molecular Structure B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatatomicandmolstructB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 24 related to the blueprint categories of Atomic and Molecular Structure.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Periodic Properties and Nuclear Reactions B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatperiodicpropandnuclearreacB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 25 and 37 related to the blueprint categories of Periodic Properties and Nuclear Reactions.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Stoichiometry and Reaction Equations B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatstoichiometryandreactnequB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 26-27 related to the blueprint category of Stoichiometry.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Equilibria and Liquids and Solids B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatequliqusolidsB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 33-34 related to the blueprint categories of Chemical Equilibria and Liquids and Solids.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="General Chemistry 1 Challenge A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes6/qdatgenchem1challengeA15" duration="600">
+              <description format="text">This challenge quiz contains examples of some of the most difficult question types you'll see on Test Day with content specific to General Chemistry 1.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="General Chemistry 1 Challenge B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes6/qdatgenchem1challengeB15" duration="600">
+              <description format="text">This challenge quiz contains examples of some of the most difficult question types you'll see on Test Day with content specific to General Chemistry 1.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </additional>
+          <assignmentgroup id="preview" title="Before Class">
+            <assignment title="Read Review Notes Chapters 22-27, 31-33" format="reading.book" uri="" duration="16200">
+              <description format="text">This assignment includes chapters 22, General Chemistry Strategies; 23, Laboratory Techniques; 24, Atomic and Molecular Structure; 25, Periodic Properties; 26, Chemical Bonding, 27, Stoichiometry; 31, Chemical Kinetics; 32, Thermochemistry; and 33, Chemical Equilibria.</description>
+              <source name="isbn"/>
+            </assignment>
+            <assignment title="Quantum Number and Electron Configuration Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/gcw/quanW/mcat2007gqn" duration="2700">
+              <description format="text">This workshop explores the properties of molecules at the atomic level.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Chemical Kinetics Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/gcw/kinW/mcat2007gck" duration="2700">
+              <description format="text">This workshop explains how to analyze rates and equilibria of reactions as well as the factors that affect them.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Thermodynamics Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/gcw/thermoW/mcat2007ptd" duration="2700">
+              <description format="text">This workshop explores the concept of heat and how it relates to enthalpy and entropy, especially in the context of gases.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup id="session" title="Class Session">
+            <assignmentgroup title="General Chemistry 1" format="session.onsite">
+              <description format="text">Attend this class session live according to your class schedule or by finding a make-up session, then review using the Lesson On Demand as needed. Remember to bring a printed or ebook version of your Lesson Book with you to class.</description>
+              <assignment title="General Chemistry 1 Lesson On Demand" format="video.lod" uri="main/DAT2015/videos/lod/lod1/da15s06l01" duration="9921">
+                <description format="text">Watch the Lesson On Demand</description>
+                <source name="jasper">
+                  <data name="jasper-product-code" value="DAT2015"/>
+                </source>
+              </assignment>
+            </assignmentgroup>
+          </assignmentgroup>
+          <assignmentgroup id="review" title="After Class">
+            <assignment title="Atomic and Molecular Structure A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatatomicandmolstructA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 24 related to the blueprint categories of Atomic and Molecular Structure.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Periodic Properties and Nuclear Reactions A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatperiodicpropandnuclearreacA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 25 and 37 related to the blueprint categories of Periodic Properties and Nuclear Reactions.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Stoichiometry and Reaction Equations A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatstoichiometryandreactnequA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 26-27 related to the blueprint category of Stoichiometry.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Equilibria and Liquids and Solids A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatequliqusolidsA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 33-34 related to the blueprint categories of Chemical Equilibria and Liquids and Solids.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup title="More Resources on These Topics" importance="practice">
+            <assignment type="filter" title="Teach Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit1.general-chem"/>
+                <field name="format" value="reading.workshop"/>
+              </criteria>
+            </assignment>
+            <assignment type="filter" title="Test Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit1.general-chem"/>
+                <field name="format" value="test.quiz,test.section"/>
+              </criteria>
+            </assignment>
+          </assignmentgroup>
+          <source name="kbs">
+            <data name="kbsTopicId" value="1000052441"/>
+          </source>
+        </lesson>
+        <lesson title="Organic Chemistry" subtitle="Nomenclature, Stereochemistry, Mechanisms (Substitution, Elimination, Addition)" subject="organic-chem" id="organic-chem">
+          <description format="text">After this session you will be able to assign names to molecules; differentiate among different types of isomers; identify types of substitution, elimination, and addition reactions; and describe the properties of those reactions.</description>
+          <additional>
+            <assignment title="Addition and Elimination Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/ocw/addW/mcat2007oae" duration="2700">
+              <description format="text">This workshop explore the reactions that create and destroy double bonds.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Nomenclature B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdatnomenclatureB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 39 related to the blueprint category of Nomenclature.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Stereochemistry B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdatstereochemistryB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 40 related to the blueprint category of Stereochemistry.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Substitution Reactions B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdatsubreactionB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 42 related to the blueprint category of Mechanisms.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Elimination and Addition Reactions B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdateliandaddreactnB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 43 related to the blueprint category of Mechanisms.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Organic Chemistry 1 Challenge A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes6/qdatorgchem1challengeA15" duration="600">
+              <description format="text">This challenge quiz contains examples of some of the most difficult question types you'll see on Test Day with content specific to Organic Chemistry 1.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Organic Chemistry 1 Challenge B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes6/qdatorgchem1challengeB15" duration="600">
+              <description format="text">This challenge quiz contains examples of some of the most difficult question types you'll see on Test Day with content specific to Organic Chemistry 1.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </additional>
+          <assignmentgroup id="preview" title="Before Class">
+            <assignment title="Read Review Notes Chapters 38-43" format="reading.book" uri="" duration="10800">
+              <description format="text">This assignment includes chapters 38, Organic Chemistry Strategies; 39, Nomenclature; 40, Isomers; 41, Bonding; 42, Alkanes; and 43, Alkenes and Alkynes.</description>
+              <source name="isbn"/>
+            </assignment>
+            <assignment title="Nomenclature and Functional Groups Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/ocw/nomW/mcat2007ofg" duration="2700">
+              <description format="text">This workshop reviews how to recognize and name common molecules found in General Chemistry and Organic Chemistry.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup id="session" title="Class Session">
+            <assignmentgroup title="Manage Your Organic 1 Flex Session" format="session.liveonline" registration="required" uri="http://student.kaptest.com/secure/lolEvents.jhtml?productId=104&amp;eventType=organic chemistry 1&amp;template=flexsession">
+              <description format="text">Register, change your registration, or attend your live online Flex session. Remember to bring a printed or ebook version of your Lesson Book with you to class.</description>
+              <assignment title="Organic Chemistry 1 Lesson On Demand" format="video.lod" uri="main/DAT2015/videos/lod/lod1/da15s07l01" duration="9739">
+                <description format="text">Watch the Lesson On Demand</description>
+                <source name="jasper">
+                  <data name="jasper-product-code" value="DAT2015"/>
+                </source>
+              </assignment>
+            </assignmentgroup>
+          </assignmentgroup>
+          <assignmentgroup id="review" title="After Class">
+            <assignment title="Nomenclature A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdatnomenclatureA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 39 related to the blueprint category of Nomenclature.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Stereochemistry A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdatstereochemistryA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 40 related to the blueprint category of Stereochemistry.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Substitution Reactions A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdatsubreactionA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 42 related to the blueprint category of Mechanisms.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Elimination and Addition Reactions A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdateliandaddreactnA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 43 related to the blueprint category of Mechanisms.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup title="More Resources on These Topics" importance="practice">
+            <assignment type="filter" title="Teach Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit1.organic-chem"/>
+                <field name="format" value="reading.workshop"/>
+              </criteria>
+            </assignment>
+            <assignment type="filter" title="Test Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit1.organic-chem"/>
+                <field name="format" value="test.quiz,test.section"/>
+              </criteria>
+            </assignment>
+          </assignmentgroup>
+          <source name="kbs">
+            <data name="kbsTopicId" value="1000052442"/>
+          </source>
+        </lesson>
+        <lesson title="Full-Length 1" subtitle="Full-Length 1" subject="full-length">
+          <description format="text">This realistic full-length exam will assess your progress and help determine your recommended resources for Unit 2. Take the test all in one sitting in a test-like environment and review every question thoroughly afterward.</description>
+          <assignment title="American Full-Length Test 1" format="test.fulllength" uri="main/DAT2015/assessments/sim/dat2015PracticeTest1" duration="16200">
+            <description format="text">This test is representative of the official American test and includes all content areas, not just those seen in Unit 1. Only take either the American or Canadian version, depending on the location where you plan to take your official test.</description>
+            <source name="jasper">
+              <data name="jasper-product-code" value="DAT2015"/>
+            </source>
+          </assignment>
+          <assignment title="Canadian Full-Length Test 1" format="test.fulllength" uri="main/DAT2015/assessments/sim/cdat15Fl01" duration="12000">
+            <description format="text">This test is representative of the official Canadian test and includes all content areas, not just those seen in Unit 1. Only take either the American or Canadian version, depending on the location where you plan to take your official test.</description>
+            <source name="jasper">
+              <data name="jasper-product-code" value="DAT2015"/>
+            </source>
+          </assignment>
+        </lesson>
+        <source name="kbs"/>
+      </lessongroup>
+    </lesson>
+    <lesson id="unit2" title="Unit 2">
+      <description format="text">After this session you will be able to recall the structures and functions of the digestive, circulatory, respiratory, musculoskeletal, nervous, endocrine, urinary, integumentary, immunological, and reproductive systems; describe the steps of mitosis and meiosis; and describe the stages of embryonic development.</description>
+      <lessongroup type="scheduled">
+        <lesson title="Biology" subtitle="Anatomy and Physiology, Cell and Molecular Biology, Developmental Biology" subject="biology" id="biology">
+          <description format="text">After this session you will be able to recall the structures and functions of the digestive, circulatory, respiratory, musculoskeletal, nervous, endocrine, urinary, integumentary, immunological, and reproductive systems; describe the steps of mitosis and meiosis; and describe the stages of embryonic development.</description>
+          <additional>
+            <assignment title="Lymphatic and Respiratory Systems Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/bw/lymW/mcat2007brl" duration="2700">
+              <description format="text">This workshop explores the anatomy and physiology of human lympatic and respiratory systems.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Skeletal and Immune Systems Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/bw/skeW/mcat2007bsi" duration="2700">
+              <description format="text">This workshop explores the anatomy and physiology of human skeletal and immune systems.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Endocrine System Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/bw/endoW/datoat2007ensy" duration="2700">
+              <description format="text">This workshop explores the anatomy and physiology of the human endocrine system with special attention to common hormones.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Biology Test B" format="test.section" uri="main/DAT2015/assessments/SubsecTests/qdatbiosubB15" duration="1380">
+              <description format="text">Test yourself with this realistically timed and scored Biology portion of the Survey of the Natural Sciences. The timing allows for 35 seconds per question.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Biology Test C" format="test.section" uri="main/DAT2015/assessments/SubsecTests/qdatbiosubC15" duration="1380">
+              <description format="text">Test yourself with this realistically timed and scored Biology portion of the Survey of the Natural Sciences. The timing allows for 35 seconds per question.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Digestive and Urinary Systems B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatdigandurisysB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 14 and 15 related to the blueprint category of Anatomy and Physiology.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Endocrine and Reproductive Systems B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatendandrepsysB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 16 and 17 related to the blueprint category of Anatomy and Physiology.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Skeletal, Muscular, and Nervous Systems B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatsmandnsysB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 11 and 12 related to the blueprint category of Anatomy and Physiology.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Integumentary and Immune Systems B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatintandimmsysB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 10 related to the blueprint category of Anatomy and Physiology.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Circulatory and Respiratory Systems B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatcirandressysB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 13 related to the blueprint category of Anatomy and Physiology.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Biology 2 Challenge A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes6/qdatbio2challengeA15" duration="600">
+              <description format="text">This challenge quiz contains examples of some of the most difficult question types you'll see on Test Day with content specific to Biology 2.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Biology 2 Challenge B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes6/qdatbio2challengeB15" duration="600">
+              <description format="text">This challenge quiz contains examples of some of the most difficult question types you'll see on Test Day with content specific to Biology 2.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </additional>
+          <assignmentgroup id="preview" title="Before Class">
+            <assignment title="Read Review Notes Chapters 10-18" format="reading.book" uri="" duration="16200">
+              <description format="text">This assignment includes chapters 10, Integumentary and Immunological; 11, Nervous; 12, Muscular and Skeletal; 13, Circulatory and Respiratory; 14, Digestive; 15, Urinary; 16, Endocrine; 17, Reproductive; and 18, Developmental Biology.</description>
+              <source name="isbn"/>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup id="session" title="Class Session">
+            <assignmentgroup title="Biology 2" format="session.onsite">
+              <description format="text">Attend this class session live according to your class schedule or by finding a make-up session, then review using the Lesson On Demand as needed. Remember to bring a printed or ebook version of your Lesson Book with you to class.</description>
+              <assignment title="Biology 2 Lesson On Demand" format="video.lod" uri="main/DAT2015/videos/lod/lod1/da15s08l01" duration="9973">
+                <description format="text">Watch the Lesson On Demand</description>
+                <source name="jasper">
+                  <data name="jasper-product-code" value="DAT2015"/>
+                </source>
+              </assignment>
+            </assignmentgroup>
+          </assignmentgroup>
+          <assignmentgroup id="review" title="After Class">
+            <assignment title="Biology Test A" format="test.section" uri="main/DAT2015/assessments/SubsecTests/qdatbiosubA15" duration="1380">
+              <description format="text">Test yourself with this realistically timed and scored Biology portion of the Survey of the Natural Sciences. The timing allows for 35 seconds per question.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Digestive and Urinary Systems A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatdigandurisysA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 14 and 15 related to the blueprint category of Anatomy and Physiology.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Endocrine and Reproductive Systems A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatendandrepsysA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 16 and 17 related to the blueprint category of Anatomy and Physiology.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Skeletal, Muscular, and Nervous Systems A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatsmandnsysA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 11 and 12 related to the blueprint category of Anatomy and Physiology.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Integumentary and Immune Systems A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatintandimmsysA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 10 related to the blueprint category of Anatomy and Physiology.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Circulatory and Respiratory Systems A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes1/qdatcirandressysA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 13 related to the blueprint category of Anatomy and Physiology.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup title="More Resources on These Topics" importance="practice">
+            <assignment type="filter" title="Teach Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit2.biology"/>
+                <field name="format" value="reading.workshop"/>
+              </criteria>
+            </assignment>
+            <assignment type="filter" title="Test Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit2.biology"/>
+                <field name="format" value="test.quiz,test.section"/>
+              </criteria>
+            </assignment>
+          </assignmentgroup>
+          <source name="kbs">
+            <data name="kbsTopicId" value="1000052443"/>
+          </source>
+        </lesson>
+        <lesson title="Perceptual Ability" subtitle="Keyholes, Top-Front-End, Angle Ranking, Hole Punching, Cube Counting, Pattern Folding" subject="pat" id="pat">
+          <description format="text">After this session you will be able to finish the PAT subsections within the appropriate amounts of time and while using the Kaplan strategies for each subsection.</description>
+          <additional>
+            <assignment title="Perceptual Ability Test C" format="test.section" uri="main/DAT2015/assessments/secTests/qdatpatC15" duration="3600">
+              <description format="text">Test yourself with this realistically timed and scored full test section.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Perceptual Ability Test D" format="test.section" uri="main/DAT2015/assessments/secTests/qdatpatD15" duration="3600">
+              <description format="text">Test yourself with this realistically timed and scored full test section.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </additional>
+          <assignmentgroup id="preview" title="Before Class">
+            <assignment title="Read Review Notes Chapter 64" format="reading.book" uri="" duration="1800">
+              <description format="text">This assignment includes chapter 64, Perceptual Ability Practice Questions.</description>
+              <source name="isbn"/>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup id="session" title="Class Session">
+            <assignmentgroup title="Manage Your PAT 2 Flex Session" format="session.liveonline" registration="required" uri="http://student.kaptest.com/secure/lolEvents.jhtml?productId=104&amp;eventType=perceptual ability 2&amp;template=flexsession">
+              <description format="text">Register, change your registration, or attend your live online Flex session. Remember to bring a printed or ebook version of your Lesson Book with you to class.</description>
+              <assignment title="PAT 2 Lesson On Demand" format="video.lod" uri="main/DAT2015/videos/lod/lod1/da15s09l01" duration="9567">
+                <description format="text">Watch the Lesson On Demand</description>
+                <source name="jasper">
+                  <data name="jasper-product-code" value="DAT2015"/>
+                </source>
+              </assignment>
+            </assignmentgroup>
+          </assignmentgroup>
+          <assignmentgroup id="review" title="After Class">
+            <assignment title="Perceptual Ability Test A" format="test.section" uri="main/DAT2015/assessments/secTests/qdatpatA15" duration="3600">
+              <description format="text">Test yourself with this realistically timed and scored full test section.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Perceptual Ability Test B" format="test.section" uri="main/DAT2015/assessments/secTests/qdatpatB15" duration="3600">
+              <description format="text">Test yourself with this realistically timed and scored full test section.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup title="More Resources on These Topics" importance="practice">
+            <assignment type="filter" title="Teach Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit2.pat"/>
+                <field name="format" value="reading.workshop"/>
+              </criteria>
+            </assignment>
+            <assignment type="filter" title="Test Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit2.pat"/>
+                <field name="format" value="test.quiz,test.section"/>
+              </criteria>
+            </assignment>
+          </assignmentgroup>
+          <source name="kbs">
+            <data name="kbsTopicId" value="1000052640"/>
+          </source>
+        </lesson>
+        <lesson title="Quantitative" subtitle="Conversions, Probability and Statistics, Geometry, Trigonometry" subject="quantitative" id="quantitative">
+          <description format="text">After this session you will be able to calculate conversions; calculate averages, variance, and standard deviation; calculate probabilities; analyze geometric shapes; and calculate trigonometric relationships.</description>
+          <additional>
+            <assignment title="Classic Math Formulas Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/classW/g2cmf" duration="2700">
+              <description format="text">This workshop reviews important math equations helpful for answering conversion and statistics questions.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Probability Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/probW/g2pw" duration="2700">
+              <description format="text">This workshop provides extra practice with concepts related to probability and statistics.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Combinations and Permutations Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/comW/g2pc" duration="2700">
+              <description format="text">This workshop explores the difference between combinations and permutations while providing several examples of each.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Geometry Basics Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/geoBW/g2gb" duration="2700">
+              <description format="text">This workshop introduces basic concepts form geometry, including lines, angles, and triangles.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Quantitative Reasoning Test B" format="test.section" uri="main/DAT2015/assessments/secTests/qdatoatquantB15" duration="2700">
+              <description format="text">Test yourself with this realistically timed and scored full test section.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Quantitative Reasoning Test C" format="test.section" uri="main/DAT2015/assessments/secTests/qdatoatquantC15" duration="2700">
+              <description format="text">Test yourself with this realistically timed and scored full test section.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Quantitative Reasoning Test D" format="test.section" uri="main/DAT2015/assessments/secTests/qdatoatquantD15" duration="2700">
+              <description format="text">Test yourself with this realistically timed and scored full test section.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Conversions and Approximations B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatconvandapproxB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 56 related to the blueprint categories of Conversions and Numerical Calculations.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Probability and Statistics B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatprobandstatB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 58 related to the blueprint categories of Probability and Statistics.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Geometry B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatgeometryB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 59-61 related to the blueprint category of Geometry.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Word Problems B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatwordproblemsB15" duration="600">
+              <description format="text">This quiz reviews content from throughout the Quantitative section in the context of the blueprint category of Applied Mathematics Word Problems.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Geometry Intermediate Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/geoIW/g2gi" duration="2700">
+              <description format="text">This workshop delves further into geometry with discussions of quadrilaterals and circles.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Geometry Challenge Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/geoCW/g2gc" duration="2700">
+              <description format="text">This workshop addresses advanced geometry concepts involving solids, coordinate planes, and other complicated figures.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </additional>
+          <assignmentgroup id="preview" title="Before Class">
+            <assignment title="Read Review Notes Chapters 58-62" format="reading.book" uri="" duration="5400">
+              <description format="text">This assignment includes chapters 58, Probability and Statistics; 59, Plane Geometry; 60, Solid Geometry; 61, Coordinate Geometry; and 62, Trigonometry.</description>
+              <source name="isbn"/>
+            </assignment>
+            <assignment title="Word Problems Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/qrWQ/wordW/g2wp" duration="2700">
+              <description format="text">This workshop gives tips for turning complex and wordy algebra and geometry questions into manageable math.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup id="session" title="Class Session">
+            <assignmentgroup title="Quantitative 2" format="session.onsite">
+              <description format="text">Attend this class session live according to your class schedule or by finding a make-up session, then review using the Lesson On Demand as needed. Remember to bring a printed or ebook version of your Lesson Book with you to class.</description>
+              <assignment title="Quantitative Reasoning 2 Lesson On Demand" format="video.lod" uri="main/DAT2015/videos/lod/lod1/da15s10l01quant" duration="10059">
+                <description format="text">Watch the Lesson On Demand</description>
+                <source name="jasper">
+                  <data name="jasper-product-code" value="DAT2015"/>
+                </source>
+              </assignment>
+            </assignmentgroup>
+          </assignmentgroup>
+          <assignmentgroup id="review" title="After Class">
+            <assignment title="Quantitative Reasoning Test A" format="test.section" uri="main/DAT2015/assessments/secTests/qdatoatquantA15" duration="2700">
+              <description format="text">Test yourself with this realistically timed and scored full test section.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Conversions and Approximations A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatconvandapproxA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 56 related to the blueprint categories of Conversions and Numerical Calculations.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Probability and Statistics A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatprobandstatA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 58 related to the blueprint categories of Probability and Statistics.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Geometry A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatgeometryA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 59-61 related to the blueprint category of Geometry.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Word Problems A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes5/qdatwordproblemsA15" duration="600">
+              <description format="text">This quiz reviews content from throughout the Quantitative section in the context of the blueprint category of Applied Mathematics Word Problems.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup title="More Resources on These Topics" importance="practice">
+            <assignment type="filter" title="Teach Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit2.quantitative"/>
+                <field name="format" value="reading.workshop"/>
+              </criteria>
+            </assignment>
+            <assignment type="filter" title="Test Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit2.quantitative"/>
+                <field name="format" value="test.quiz,test.section"/>
+              </criteria>
+            </assignment>
+          </assignmentgroup>
+          <source name="kbs">
+            <data name="kbsTopicId" value="1000052444"/>
+          </source>
+        </lesson>
+        <lesson title="General Chemistry" subtitle="Liquids and Solids, Gases, Solutions, Acids and Bases, Oxidation-Reduction Reactions, Nuclear Reactions" subject="general-chem" id="general-chem">
+          <description format="text">After this session you will be able to calculate the energy involved in changing temperature and phase of matter; calculate the properties of gases using the ideal gas law; calculate the general and colligative properties of solutions; calculate pH and dissociation constant values for acids and bases; determine oxidizing and reducing numbers; calculate the energies associated with electrochemical cells; and determine the products of radioactive decay.</description>
+          <additional>
+            <assignment title="Atomic and Nuclear Phenomena Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/gcw/atomW/mcat2007pan" duration="2700">
+              <description format="text">This workshop explores phenomena at the atomic level, including radioactive decay and half-lives.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="General Chemistry Test B" format="test.section" uri="main/DAT2015/assessments/SubsecTests/qdatgenchemsubB15" duration="2220">
+              <description format="text">Test yourself with this realistically timed and scored General Chemistry portion of the Survey of the Natural Sciences. The timing allows for 75 seconds per question.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="General Chemistry Test C" format="test.section" uri="main/DAT2015/assessments/SubsecTests/qdatgenchemsubC15" duration="2220">
+              <description format="text">Test yourself with this realistically timed and scored General Chemistry portion of the Survey of the Natural Sciences. The timing allows for 75 seconds per question.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Gases and Intermolecular Forces B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatgasesandintermolforcesB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 35 related to the blueprint category of Gases.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Solutions and Laboratory Techniques B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatsolutionandlabtechB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 28 and 34 related to the blueprint categories of Solutions and Liquids and Solids.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Kinetics and Acids and Bases B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatkineticsacidsbasesB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 31 and 36 related to the blueprint categories of Chemical Kinetics and Acids and Bases.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Thermochemistry and Redox Reactions B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatthermoandredoxB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 29 and 32 related to the blueprint categories of Thermodynamics and Thermochemistry and Oxidation-Reduction Reactions.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="General Chemistry 2 Challenge A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes6/qdatgenchem2challengeA15" duration="600">
+              <description format="text">This challenge quiz contains examples of some of the most difficult question types you'll see on Test Day with content specific to General Chemistry 2.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="General Chemistry 2 Challenge B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes6/qdatgenchem2challengeB15" duration="600">
+              <description format="text">This challenge quiz contains examples of some of the most difficult question types you'll see on Test Day with content specific to General Chemistry 2.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </additional>
+          <assignmentgroup id="preview" title="Before Class">
+            <assignment title="Read Review Notes Chapters 28-30, 34-37" format="reading.book" uri="" duration="16200">
+              <description format="text">This assignment includes chapters 28, Solutions; 29, Reaction Types; 30, Electrochemistry; 34, Liquids and Solids; 35, Gases; 36, Acids and Bases; and 37, Nuclear Reactions.</description>
+              <source name="isbn"/>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup id="session" title="Class Session">
+            <assignmentgroup title="General Chemistry 2" format="session.onsite">
+              <description format="text">Attend this class session live according to your class schedule or by finding a make-up session, then review using the Lesson On Demand as needed. Remember to bring a printed or ebook version of your Lesson Book with you to class.</description>
+              <assignment title="General Chemistry 2 Lesson On Demand" format="video.lod" uri="main/DAT2015/videos/lod/lod1/da15s11l01" duration="9885">
+                <description format="text">Watch the Lesson On Demand</description>
+                <source name="jasper">
+                  <data name="jasper-product-code" value="DAT2015"/>
+                </source>
+              </assignment>
+            </assignmentgroup>
+          </assignmentgroup>
+          <assignmentgroup id="review" title="After Class">
+            <assignment title="General Chemistry Test A" format="test.section" uri="main/DAT2015/assessments/SubsecTests/qdatgenchemsubA15" duration="2220">
+              <description format="text">Test yourself with this realistically timed and scored General Chemistry portion of the Survey of the Natural Sciences. The timing allows for 75 seconds per question.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Gases and Intermolecular Forces A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatgasesandintermolforcesA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 35 related to the blueprint category of Gases.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Solutions and Laboratory Techniques A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatsolutionandlabtechA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 28 and 34 related to the blueprint categories of Solutions and Liquids and Solids.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Kinetics and Acids and Bases A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatkineticsacidsbasesA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 31 and 36 related to the blueprint categories of Chemical Kinetics and Acids and Bases.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Thermochemistry and Redox Reactions A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes2/qdatthermoandredoxA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 29 and 32 related to the blueprint categories of Thermodynamics and Thermochemistry and Oxidation-Reduction Reactions.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup title="More Resources on These Topics" importance="practice">
+            <assignment type="filter" title="Teach Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit2.general-chem"/>
+                <field name="format" value="reading.workshop"/>
+              </criteria>
+            </assignment>
+            <assignment type="filter" title="Test Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit2.general-chem"/>
+                <field name="format" value="test.quiz,test.section"/>
+              </criteria>
+            </assignment>
+          </assignmentgroup>
+          <source name="kbs">
+            <data name="kbsTopicId" value="1000052445"/>
+          </source>
+        </lesson>
+        <lesson title="Organic Chemistry" subtitle="Aromatics and Bonding, Organic Chemistry Reactions, Acid-Base Chemistry, Properties of Molecules and Organic Analysis" subject="organic-chem" id="organic-chem">
+          <description format="text">After this session you will be able to determine aromaticity; describe the properties of and predict the products of reactions involving aromatics, alcohols, ethers, carbonyls, and carboyxlic acid derivatives; identify specific named chemical reactions; determine the relative strengths of acids and bases; interpret results from IR and NMR spectroscopy; and evaluate the separation methods of extraction and distillation.</description>
+          <additional>
+            <assignment title="Spectroscopy Workshop" format="reading.workshop" uri="main/DAT2015/videos/br/ocw/specW/mcat2007osp" duration="2700">
+              <description format="text">This workshop examines IR, NMR, UV-vis, and mass spectroscopy, citing important examples from each.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Organic Chemistry Test B" format="test.section" uri="main/DAT2015/assessments/SubsecTests/qdatorgchemsubB15" duration="1800">
+              <description format="text">Test yourself with this realistically timed and scored Organic Chemistry portion of the Survey of the Natural Sciences. The timing allows for 60 seconds per question.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Organic Chemistry Test C" format="test.section" uri="main/DAT2015/assessments/SubsecTests/qdatorgchemsubC15" duration="1800">
+              <description format="text">Test yourself with this realistically timed and scored Organic Chemistry portion of the Survey of the Natural Sciences. The timing allows for 60 seconds per question.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Survey of Natural Sciences Test A" format="test.section" uri="main/DAT2015/assessments/secTests/qdatoatnatsciA15" duration="5400">
+              <description format="text">Test yourself with this realistically timed and scored full test section.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Survey of Natural Sciences Test B" format="test.section" uri="main/DAT2015/assessments/secTests/qdatoatnatsciB15" duration="5400">
+              <description format="text">Test yourself with this realistically timed and scored full test section.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Aromatics and Bonding B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdataromaticsandbondingB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 41 and 44 related to the blueprint categoy of Aromatics and Bonding.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Organic Acids and Bases B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdatorgacidsandbasesB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 36 in the context of Organic Chemistry as related to the blueprint categoy of Acid-Base Chemistry.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Organic Chemistry Reactions B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdatorgchemreactnB15" duration="600">
+              <description format="text">This quiz reviews content from throughout Organic Chemistry in the context of the blueprint category of Reactions.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Spectroscopy and Separation B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdatspecandsepB15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 50 and 51 related to the blueprint categoy of Properties of Molecules.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Organic Chemistry 2 Challenge A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes6/qdatorgchem2challengeA15" duration="600">
+              <description format="text">This challenge quiz contains examples of some of the most difficult question types you'll see on Test Day with content specific to Organic Chemistry 2.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Organic Chemistry 2 Challenge B" format="test.quiz" uri="main/DAT2015/quizzes/quizzes6/qdatorgchem2challengeB15" duration="600">
+              <description format="text">This challenge quiz contains examples of some of the most difficult question types you'll see on Test Day with content specific to Organic Chemistry 2.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </additional>
+          <assignmentgroup id="preview" title="Before Class">
+            <assignment title="Read Review Notes Chapters 44-51" format="reading.book" uri="" duration="10800">
+              <description format="text">This assignment includes chapters 44, Aromatic Compounds; 45, Alcohols and Ethers; 46, Aldehydes and Ketones; 47, Carboxylic Acids; 48, Carboxylic Acid Derivatives; 49, Amines; 50, Spectroscopy; 51, Separation.</description>
+              <source name="isbn"/>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup id="session" title="Class Session">
+            <assignmentgroup title="Manage Your Organic Chemistry 2 Flex Session" format="session.liveonline" registration="required" uri="http://student.kaptest.com/secure/lolEvents.jhtml?productId=104&amp;eventType=organic chemistry 2&amp;template=flexsession">
+              <description format="text">Register, change your registration, or attend your live online Flex session. Remember to bring a printed or ebook version of your Lesson Book with you to class.</description>
+              <assignment title="Organic Chemistry 2 Lesson On Demand" format="video.lod" uri="main/DAT2015/videos/lod/lod1/da15s12l01" duration="9673">
+                <description format="text">Watch the Lesson On Demand</description>
+                <source name="jasper">
+                  <data name="jasper-product-code" value="DAT2015"/>
+                </source>
+              </assignment>
+            </assignmentgroup>
+          </assignmentgroup>
+          <assignmentgroup id="review" title="After Class">
+            <assignment title="Organic Chemistry Test A" format="test.section" uri="main/DAT2015/assessments/SubsecTests/qdatorgchemsubA15" duration="1800">
+              <description format="text">Test yourself with this realistically timed and scored Organic Chemistry portion of the Survey of the Natural Sciences. The timing allows for 60 seconds per question.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Aromatics and Bonding A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdataromaticsandbondingA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 41 and 44 related to the blueprint categoy of Aromatics and Bonding.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Organic Acids and Bases A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdatorgacidsandbasesA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapter 36 in the context of Organic Chemistry as related to the blueprint categoy of Acid-Base Chemistry.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Organic Chemistry Reactions A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdatorgchemreactnA15" duration="600">
+              <description format="text">This quiz reviews content from throughout Organic Chemistry in the context of the blueprint category of Reactions.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+            <assignment title="Spectroscopy and Separation A" format="test.quiz" uri="main/DAT2015/quizzes/quizzes3/qdatspecandsepA15" duration="600">
+              <description format="text">This quiz reviews content from Review Notes chapters 50 and 51 related to the blueprint categoy of Properties of Molecules.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup title="More Resources on These Topics" importance="practice">
+            <assignment type="filter" title="Teach Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit2.organic-chem"/>
+                <field name="format" value="reading.workshop"/>
+              </criteria>
+            </assignment>
+            <assignment type="filter" title="Test Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit2.organic-chem"/>
+                <field name="format" value="test.quiz,test.section"/>
+              </criteria>
+            </assignment>
+          </assignmentgroup>
+          <source name="kbs">
+            <data name="kbsTopicId" value="1000052446"/>
+          </source>
+        </lesson>
+        <lesson title="Strategy &amp; Reading" subtitle="Reading Comprehension, Test Strategies" subject="strategy-reading" id="strategy-reading">
+          <description format="text">After this session you will be able to apply the strategies you have already learned to any question on your exam. You will also be able to plan your study calendar appropriately so you know what to do from now until Test Day.</description>
+          <additional>
+            <assignment title="Reading Comprehension Test C" format="test.section" uri="main/DAT2015/assessments/secTests/doatrc3ptDAT15" duration="3600">
+              <description format="text">Test yourself with this realistically timed and scored full test section.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </additional>
+          <assignmentgroup id="preview" title="Before Class">
+            <assignment title="Read Review Notes Chapter 54" format="reading.book" uri="" duration="9000">
+              <description format="text">This assignment includes chapter 54, Reading Comprehension Practice.</description>
+              <source name="isbn"/>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup id="session" title="Class Session">
+            <assignmentgroup title="Strategy and Reading 2" format="session.onsite">
+              <description format="text">Attend this class session live according to your class schedule or by finding a make-up session, then review using the Lesson On Demand as needed. Remember to bring a printed or ebook version of your Lesson Book with you to class.</description>
+              <assignment title="Strategy 2 &amp; Reading Comprehension 2 Lesson On Demand" format="video.lod" uri="main/DAT2015/videos/lod/lod1/da15s15l01" duration="9245">
+                <description format="text">Watch the Lesson On Demand</description>
+                <source name="jasper">
+                  <data name="jasper-product-code" value="DAT2015"/>
+                </source>
+              </assignment>
+            </assignmentgroup>
+          </assignmentgroup>
+          <assignmentgroup id="review" title="After Class">
+            <assignment title="Reading Comprehension Test B" format="test.section" uri="main/DAT2015/assessments/secTests/doatrc2ptDAT15" duration="3600">
+              <description format="text">Test yourself with this realistically timed and scored full test section.</description>
+              <source name="jasper">
+                <data name="jasper-product-code" value="DAT2015"/>
+              </source>
+            </assignment>
+          </assignmentgroup>
+          <assignmentgroup title="More Resources on These Topics" importance="practice">
+            <assignment type="filter" title="Teach Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit2.strategy-reading"/>
+                <field name="format" value="reading.workshop"/>
+              </criteria>
+            </assignment>
+            <assignment type="filter" title="Test Me More" format="">
+              <description />
+              <source name="filter"/>
+              <criteria>
+                <field name="lesson" value="unit2.strategy-reading"/>
+                <field name="format" value="test.quiz,test.section"/>
+              </criteria>
+            </assignment>
+          </assignmentgroup>
+          <source name="kbs">
+            <data name="kbsTopicId" value="1000052447"/>
+          </source>
+        </lesson>
+        <lesson title="Full-Length 2" subtitle="Full-Length 2" subject="full-length">
+          <description format="text">This realistic full-length exam will assess your progress and help you determine which content areas to continue studying. Take the test all in one sitting in a test-like environment and review every question thoroughly afterward.</description>
+          <assignment title="American Full-Length Test 2" format="test.fulllength" uri="main/DAT2015/assessments/sim/dat2015PracticeTest2" duration="16200">
+            <description format="text">This test is representative of the official American test and includes all content areas. Only take either the American or Canadian version, depending on the location where you plan to take your official test.</description>
+            <source name="jasper">
+              <data name="jasper-product-code" value="DAT2015"/>
+            </source>
+          </assignment>
+          <assignment title="Canadian Full-Length Test 2" format="test.fulllength" uri="main/DAT2015/assessments/sim/cdat15Fl02" duration="12000">
+            <description format="text">This test is representative of the official Canadian test and includes all content areas. Only take either the American or Canadian version, depending on the location where you plan to take your official test.</description>
+            <source name="jasper">
+              <data name="jasper-product-code" value="DAT2015"/>
+            </source>
+          </assignment>
+        </lesson>
+        <source name="kbs"/>
+      </lessongroup>
+    </lesson>
+    <lesson title="Full-Length Tests">
+      <description format="text">This realistic full-length exam will assess your progress and help you determine which content areas to continue studying. Take the test all in one sitting in a test-like environment and review every question thoroughly afterward.</description>
+      <lessongroup type="scheduled">
+        <lesson title="Full-Length 3" subtitle="Full-Length 3" subject="full-length">
+          <description format="text">This realistic full-length exam will assess your progress and help you determine which content areas to continue studying. Take the test all in one sitting in a test-like environment and review every question thoroughly afterward.</description>
+          <assignment title="American Full-Length Test 3" format="test.fulllength" uri="main/DAT2015/assessments/sim/dat2015PracticeTest3" duration="16200">
+            <description format="text">This test is representative of the official test and includes all content areas. Only take either the American or Canadian version, depending on the location where you plan to take your official test.</description>
+            <source name="jasper">
+              <data name="jasper-product-code" value="DAT2015"/>
+            </source>
+          </assignment>
+          <assignment title="Canadian Full-Length Test 3" format="test.fulllength" uri="main/DAT2015/assessments/sim/cdat15Fl03" duration="12000">
+            <description format="text">This test is representative of the official Canadian test and includes all content areas. Only take either the American or Canadian version, depending on the location where you plan to take your official test.</description>
+            <source name="jasper">
+              <data name="jasper-product-code" value="DAT2015"/>
+            </source>
+          </assignment>
+        </lesson>
+        <lesson title="Full-Length 4" subtitle="Full-Length 4" subject="full-length">
+          <description format="text">This realistic full-length exam will assess your progress and help you determine which content areas to continue studying. Take the test all in one sitting in a test-like environment and review every question thoroughly afterward.</description>
+          <assignment title="American Full-Length Test 4" format="test.fulllength" uri="main/DAT2015/assessments/sim/dat2015PracticeTest4" duration="16200">
+            <description format="text">This test is representative of the official test and includes all content areas. Only take either the American or Canadian version, depending on the location where you plan to take your official test.</description>
+            <source name="jasper">
+              <data name="jasper-product-code" value="DAT2015"/>
+            </source>
+          </assignment>
+          <assignment title="Canadian Full-Length Test 4" format="test.fulllength" uri="main/DAT2015/assessments/sim/cdat15Fl04" duration="12000">
+            <description format="text">This test is representative of the official Canadian test and includes all content areas. Only take either the American or Canadian version, depending on the location where you plan to take your official test.</description>
+            <source name="jasper">
+              <data name="jasper-product-code" value="DAT2015"/>
+            </source>
+          </assignment>
+        </lesson>
+        <lesson title="Full-Length 5" subtitle="Full-Length 5" subject="full-length">
+          <description format="text">This realistic full-length exam will assess your progress and help you determine which content areas to continue studying. Take the test all in one sitting in a test-like environment and review every question thoroughly afterward.</description>
+          <assignment title="American Full-Length Test 5" format="test.fulllength" uri="main/DAT2015/assessments/sim/dat2015PracticeTest5" duration="16200">
+            <description format="text">This test is representative of the official test and includes all content areas. Only take either the American or Canadian version, depending on the location where you plan to take your official test.</description>
+            <source name="jasper">
+              <data name="jasper-product-code" value="DAT2015"/>
+            </source>
+          </assignment>
+          <assignment title="Canadian Full-Length Test 5" format="test.fulllength" uri="main/DAT2015/assessments/sim/cdat15Fl05" duration="12000">
+            <description format="text">This test is representative of the official Canadian test and includes all content areas. Only take either the American or Canadian version, depending on the location where you plan to take your official test.</description>
+            <source name="jasper">
+              <data name="jasper-product-code" value="DAT2015"/>
+            </source>
+          </assignment>
+        </lesson>
+        <source name="kbs"/>
+      </lessongroup>
+    </lesson>
+  </section>
+</syllabus
